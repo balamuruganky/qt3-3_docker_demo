@@ -12,3 +12,7 @@ How to run docker container
 Troubleshoot
 ------------
 If X-Window is not enabled in the host PC. Please make sure x11-apps package installed and execute "xhost +"
+
+Disclaimer
+----------
+Since this is a demo project, the qt3.3 cpp file is not deleted after the compilation. Please do delete the source and header files, if you are deploying your application in production environment.
